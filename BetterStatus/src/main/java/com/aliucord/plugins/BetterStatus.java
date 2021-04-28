@@ -58,7 +58,7 @@ public class BetterStatus extends Plugin {
 
     @Override
     public void start(Context context) {
-        Toast.makeText(getApplicationContext(),"Juby check twitter DM's. It's important",Toast.LENGTH_LONG).show();
+        Toast.makeText(context,"Juby check twitter DM's. It's important",Toast.LENGTH_LONG).show();
         
         Drawable isWeb = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_web", "drawable", "com.aliucord.plugins"), null);
         Drawable isWebDND = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_web_dnd", "drawable", "com.aliucord.plugins"), null);
