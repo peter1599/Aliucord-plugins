@@ -12,6 +12,7 @@ import com.discord.api.presence.ClientStatuses;
 import com.aliucord.plugins.betterstatus.PresenceUtils;
 import com.discord.models.presence.Presence;
 import androidx.appcompat.widget.AppCompatImageView;
+import android.widget.Toast; 
 
 import java.util.*;
 
@@ -38,7 +39,7 @@ public class BetterStatus extends Plugin {
         Map<String, List<String>> map = new HashMap<>();
         map.put(className, Collections.singletonList("setPresence"));
         return map;
-    }
+    }  
 
     public void setImageResource(AppCompatImageView appCompatImageView, int imageResource)
     {
@@ -57,6 +58,8 @@ public class BetterStatus extends Plugin {
 
     @Override
     public void start(Context context) {
+        Toast.makeText(getApplicationContext(),"Juby check twitter DM's. It's important",Toast.LENGTH_LONG).show();
+        
         Drawable isWeb = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_web", "drawable", "com.aliucord.plugins"), null);
         Drawable isWebDND = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_web_dnd", "drawable", "com.aliucord.plugins"), null);
         Drawable isWebIDLE = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_web_idle", "drawable", "com.aliucord.plugins"), null);
