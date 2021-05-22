@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/premium_tier_2_pink" android:endColor="@color/premium_guild_pink" android:angle="0.0" android:type="linear" />
+</shape>

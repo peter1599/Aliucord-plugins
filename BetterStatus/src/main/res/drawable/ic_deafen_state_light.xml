@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_headset_deafened_interactiveactive_light_24dp" android:state_activated="true" />
+    <item android:state_checked="true" android:drawable="@drawable/ic_headset_deafened_interactiveactive_light_24dp" />
+    <item android:drawable="@drawable/ic_headset_interactivenormal_light_24dp" />
+</selector>

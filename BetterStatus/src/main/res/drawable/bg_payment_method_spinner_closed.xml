@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/primary_700" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:right="8.0dip">
+        <bitmap android:gravity="end" android:src="@drawable/ic_dropdown_white_18dp" />
+    </item>
+</layer-list>

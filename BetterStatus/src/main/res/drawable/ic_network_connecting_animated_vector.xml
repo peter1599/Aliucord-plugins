@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$ic_network_connecting_animated_vector__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="one" android:animation="@drawable/$ic_network_connecting_animated_vector__1" />
+    <target android:name="two" android:animation="@drawable/$ic_network_connecting_animated_vector__2" />
+    <target android:name="three" android:animation="@drawable/$ic_network_connecting_animated_vector__3" />
+    <target android:name="three" android:animation="@drawable/$ic_network_connecting_animated_vector__4" />
+</animated-vector>

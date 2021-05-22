@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="4.0dip" />
+            <solid android:color="@color/primary_light_200" />
+        </shape>
+    </item>
+    <item android:gravity="center|right" android:drawable="@drawable/ic_chevron_down_dark_grey_12dp" android:right="8.0dip" />
+</layer-list>

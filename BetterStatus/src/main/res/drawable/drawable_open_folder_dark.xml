@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/folder_border_radius_decorator" android:topRightRadius="@dimen/folder_border_radius_decorator" android:bottomLeftRadius="40.0dip" android:bottomRightRadius="40.0dip" />
+    <solid android:color="@color/primary_600" />
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingBottom="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top" android:drawable="@drawable/img_gifting_pattern_light" />
+    <item android:drawable="@color/primary_100_alpha_60" />
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/primary_100_alpha_60" android:endColor="@color/primary_100" android:angle="270.0" android:type="linear" android:centerY="0.3" android:centerColor="@color/primary_100_alpha_90" />
+        </shape>
+    </item>
+</layer-list>

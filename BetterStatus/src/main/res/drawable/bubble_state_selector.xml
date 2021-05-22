@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_quad" android:duration="@android:integer/config_shortAnimTime" android:valueTo="16.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@android:integer/config_shortAnimTime" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="@android:interpolator/accelerate_quad" android:duration="@android:integer/config_shortAnimTime" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@android:integer/config_shortAnimTime" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+            <objectAnimator android:interpolator="@android:interpolator/overshoot" android:duration="@android:integer/config_shortAnimTime" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+        </set>
+    </item>
+</selector>

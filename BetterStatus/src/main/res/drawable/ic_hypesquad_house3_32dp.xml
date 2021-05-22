@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:pivotX="12.0" android:pivotY="12.0" android:scaleX="0.85" android:scaleY="0.85">
+        <path android:fillColor="@color/hypesquad_house_3" android:pathData="M31.63,15.73 L16.27,0.37a0.37,0.37 0,0 0,-0.52 0h0L0.37,15.73a0.37,0.37 0,0 0,0 0.52h0L15.73,31.63a0.37,0.37 0,0 0,0.52 0h0L31.63,16.27a0.37,0.37 0,0 0,0 -0.52ZM25,12.29l-3,5.79a0.22,0.22 0,0 0,0.12 0.28h1.89a0.2,0.2 0,0 1,0.18 0.23,0.17 0.17,0 0,1 -0.07,0.14l-7.92,5.72a0.26,0.26 0,0 1,-0.24 0L8,18.74a0.22,0.22 0,0 1,0 -0.3H8a0.24,0.24 0,0 1,0.13 -0.07H9.9a0.22,0.22 0,0 0,0.22 -0.22h0v-0.07l-3,-5.79A0.22,0.22 0,0 1,7.22 12a0.17,0.17 0,0 1,0.14 0l7.12,4.67a0.65,0.65 0,0 1,0.29 0.32l1.09,2.18a0.19,0.19 0,0 0,0.26 0.09,0.22 0.22,0 0,0 0.1,-0.09L17.27,17a1,1 0,0 1,0.29 -0.32L24.68,12a0.21,0.21 0,0 1,0.28 0.1h0A0.2,0.2 0,0 1,25 12.29Z" />
+    </group>
+</vector>
