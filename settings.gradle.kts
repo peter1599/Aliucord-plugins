@@ -2,4 +2,4 @@
 
 include(":BetterStatus")
 
-rootProject.name = "Aliucord_plugins"
+rootProject.name = "Aliucord-plugins"
