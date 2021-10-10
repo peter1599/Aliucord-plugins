@@ -11,5 +11,4 @@ aliucord {
         # 1.0.0
         * Released
     """.trimIndent())
-    author("Butterfly3ffect", 575606699553980430L)
 }
