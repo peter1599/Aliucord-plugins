@@ -1,4 +1,5 @@
 import com.android.build.gradle.BaseExtension
+import com.aliucord.gradle.AliucordExtension
 
 buildscript {
     repositories {
@@ -21,10 +22,17 @@ allprojects {
 }
 
 fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByName<BaseExtension>("android").configuration()
+fun Project.aliucord(configuration: AliucordExtension.() -> Unit) = extensions.getByName<AliucordExtension>("aliucord").configuration()
 
 subprojects {
     apply(plugin = "com.android.library")
     apply(plugin = "com.aliucord.gradle")
+    
+    aliucord {
+        author("Butterfly3ffect", 575606699553980430L)
+        updateUrl.set("https://raw.githubusercontent.com/peter1599/Aliucord-plugins/builds/updater.json")
+        buildUrl.set("https://raw.githubusercontent.com/peter1599/Aliucord-plugins/builds/%s.zip")
+    }
 
     android {
         compileSdkVersion(30)
