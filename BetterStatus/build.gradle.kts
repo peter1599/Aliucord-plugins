@@ -1,8 +1,10 @@
-version = "1.0.2"
+version = "1.0.3"
 description = "BetterStatus replaces default discord status icons"
 
 aliucord {
     changelog.set("""
+        # 1.0.3
+        * Added an option to use filled color status icons
         # 1.0.2
         * Fixed some codes
         # 1.0.1
