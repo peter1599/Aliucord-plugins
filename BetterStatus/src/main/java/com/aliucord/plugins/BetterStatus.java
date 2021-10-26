@@ -567,10 +567,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isWeb,1), 0);
+                        first_icon.append(" ", new ImageSpan(isWeb, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobile,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobile, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -588,10 +588,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isWebDND,1), 0);
+                        first_icon.append(" ", new ImageSpan(isWebDND, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobileDND,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobileDND, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -628,10 +628,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isWebIDLE,1), 0);
+                        first_icon.append(" ", new ImageSpan(isWebIDLE, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobileIDLE,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobileIDLE, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -669,10 +669,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktop,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktop, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobile,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobile, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -709,10 +709,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopDND,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopDND, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobileDND,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobileDND, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -751,10 +751,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopIDLE,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopIDLE, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isMobileIDLE,1), 0);
+                        second_icon.append(" ", new ImageSpan(isMobileIDLE, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -792,10 +792,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktop,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktop, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWeb,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWeb, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -832,10 +832,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopDND,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopDND, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWebDND,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWebDND, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -877,10 +877,10 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopIDLE,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopIDLE, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWebIDLE,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWebIDLE, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -920,13 +920,13 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktop,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktop, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWeb,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWeb, 1), 0);
 
                         DraweeSpanStringBuilder third_icon = new DraweeSpanStringBuilder();
-                        third_icon.append(" ", new ImageSpan(isMobile,1), 0);
+                        third_icon.append(" ", new ImageSpan(isMobile, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -967,13 +967,13 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopDND,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopDND, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWebDND,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWebDND, 1), 0);
 
                         DraweeSpanStringBuilder third_icon = new DraweeSpanStringBuilder();
-                        third_icon.append(" ", new ImageSpan(isMobileDND,1), 0);
+                        third_icon.append(" ", new ImageSpan(isMobileDND, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -1013,13 +1013,13 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
 
                         DraweeSpanStringBuilder first_icon = new DraweeSpanStringBuilder();
-                        first_icon.append(" ", new ImageSpan(isDesktopIDLE,1), 0);
+                        first_icon.append(" ", new ImageSpan(isDesktopIDLE, 1), 0);
 
                         DraweeSpanStringBuilder second_icon = new DraweeSpanStringBuilder();
-                        second_icon.append(" ", new ImageSpan(isWebIDLE,1), 0);
+                        second_icon.append(" ", new ImageSpan(isWebIDLE, 1), 0);
 
                         DraweeSpanStringBuilder third_icon = new DraweeSpanStringBuilder();
-                        third_icon.append(" ", new ImageSpan(isMobileIDLE,1), 0);
+                        third_icon.append(" ", new ImageSpan(isMobileIDLE, 1), 0);
 
                         username_status.append(" ");
                         username_status.append(first_icon);
@@ -1246,466 +1246,1208 @@ public class BetterStatus extends Plugin {
 
             //----------RADIAL STATUS----------
 
-            if(settings.getBool("radial_status_up", true) == true) {
-                //-----------Radial Status on UserProfileHeaderView--------------
+            if ((PluginManager.plugins.containsKey("SquareAvatars") && !PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) == false) {
+                if (settings.getBool("radial_status_up", true) == true) {
+                    //-----------Radial Status on UserProfileHeaderView--------------
 
-                patcher.patch(UserAvatarPresenceView.class.getDeclaredMethod("a", UserAvatarPresenceView.a.class), new PinePatchFn(callFrame -> {
-                    UserAvatarPresenceView.a data = (UserAvatarPresenceView.a) callFrame.args[0];
-                    if (data.b == null) return;
-                    ClientStatuses clientStatuses = data.b.getClientStatuses();
-                    //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
+                    patcher.patch(UserAvatarPresenceView.class.getDeclaredMethod("a", UserAvatarPresenceView.a.class), new PinePatchFn(callFrame -> {
+                        UserAvatarPresenceView.a data = (UserAvatarPresenceView.a) callFrame.args[0];
+                        if (data.b == null) return;
+                        ClientStatuses clientStatuses = data.b.getClientStatuses();
+                        //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
 
-                    if (data.b != null) {
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+                        if (data.b != null) {
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
 
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
                         }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                    }
-                }));
+                    }));
+                }
             }
 
-            if(settings.getBool("radial_status_cml", true) == true) {
-                //-----ChannelMemberList--------
-                patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new PinePatchFn(callFrame -> {
-                    Presence presence = (Presence) callFrame.args[0];
-                    if (presence == null) return;
-                    ClientStatuses clientStatuses = presence.getClientStatuses();
-                    //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
+            if (PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) {
+                if (settings.getBool("radial_status_up", true) == true) {
+                    //-----------Radial Status on UserProfileHeaderView--------------
 
-                    if (presence != null) {
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                    patcher.patch(UserAvatarPresenceView.class.getDeclaredMethod("a", UserAvatarPresenceView.a.class), new PinePatchFn(callFrame -> {
+                        UserAvatarPresenceView.a data = (UserAvatarPresenceView.a) callFrame.args[0];
+                        if (data.b == null) return;
+                        ClientStatuses clientStatuses = data.b.getClientStatuses();
+                        //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
 
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                        if (data.b != null) {
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+                                ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_profile_rectangle_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                avatar2_cut.setVisibility(View.INVISIBLE);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
                         }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                        //--------
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
-                            //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFED4245);
-                            //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
-                        }
-                        if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
-                            View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                            ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
-
-                            avatar2.setPadding(8, 8, 8, 8);
-                            avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
-                            //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
-                        }
-                    }
-                }));
+                    }));
+                }
             }
 
-            if(settings.getBool("radial_status_dm", true) == true) {
+            //----------ChannelMemberList---------
+
+            if ((PluginManager.plugins.containsKey("SquareAvatars") && !PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("SquareAvatars") && !PluginManager.isPluginEnabled("SquareAvatars")) == false) {
+                if (settings.getBool("radial_status_cml", true) == true) {
+                    //-----ChannelMemberList--------
+                    patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new PinePatchFn(callFrame -> {
+                        Presence presence = (Presence) callFrame.args[0];
+                        if (presence == null) return;
+                        ClientStatuses clientStatuses = presence.getClientStatuses();
+                        //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
+
+                        if (presence != null) {
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                        }
+                    }));
+                }
+            }
+
+            if (PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) {
+                if (settings.getBool("radial_status_cml", true) == true) {
+                    //-----ChannelMemberList--------
+                    patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new PinePatchFn(callFrame -> {
+                        Presence presence = (Presence) callFrame.args[0];
+                        if (presence == null) return;
+                        ClientStatuses clientStatuses = presence.getClientStatuses();
+                        //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
+
+                        if (presence != null) {
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
+                                View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
+                                ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                        }
+                    }));
+                }
+            }
+
+            //-------------DM List--------
+
+            if ((PluginManager.plugins.containsKey("SquareAvatars") && !PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) == false) {
+                if (settings.getBool("radial_status_dm", true) == true) {
+                    //--------DM List---------
+
+                    patcher.patch(WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredMethod("onConfigure", int.class, ChannelListItem.class), new PinePatchFn(callFrame -> {
+                        Field bindingField = null;
+                        try {
+                            bindingField = WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredField("binding");
+                        } catch (NoSuchFieldException e) {
+                            e.printStackTrace();
+                        }
+                        bindingField.setAccessible(true);
+                        WidgetChannelsListItemChannelPrivateBinding binding = null;
+
+                        try {
+                            binding = (WidgetChannelsListItemChannelPrivateBinding) bindingField.get(callFrame.thisObject);
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        RelativeLayout layout = (RelativeLayout) binding.getRoot();
+
+                        ChannelListItemPrivate data = (ChannelListItemPrivate) callFrame.args[1];
+                        Presence presence = data.getPresence();
+                        if (presence == null) return;
+                        ClientStatuses clientStatuses = presence.getClientStatuses();
+                        //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
+
+                        if (presence != null) {
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                            //--------
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFF3BA55C);
+                                //avatar2.setBackgroundColor(Color.argb(1, 59, 165, 92));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFED4245);
+                                //avatar2.setBackgroundColor(Color.argb(1, 237, 66, 69));
+                            }
+                            if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
+                                ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
+                                Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+
+                                avatar2.setPadding(8, 8, 8, 8);
+                                avatar2.setBackground(radial_status);
+                                Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
+                                //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
+                            }
+                        }
+                    }));
+                }
+            }
+
+        if(PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) {
+            if (settings.getBool("radial_status_dm", true) == true) {
                 //--------DM List---------
 
                 patcher.patch(WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredMethod("onConfigure", int.class, ChannelListItem.class), new PinePatchFn(callFrame -> {
@@ -1731,10 +2473,10 @@ public class BetterStatus extends Plugin {
                     ClientStatuses clientStatuses = presence.getClientStatuses();
                     //Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_dnd", "drawable", "com.aliucord.plugins"), null);
 
-                    if(presence != null) {
+                    if (presence != null) {
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWeb(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1743,7 +2485,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWebDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1752,17 +2494,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWebIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktop(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1771,7 +2513,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1780,17 +2522,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isMobile(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1799,7 +2541,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1808,17 +2550,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isMobileIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobile(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1827,7 +2569,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1836,17 +2578,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1855,7 +2597,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1864,17 +2606,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1883,7 +2625,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1892,17 +2634,17 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                         //--------
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1911,7 +2653,7 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
@@ -1920,16 +2662,19 @@ public class BetterStatus extends Plugin {
                         }
                         if (clientStatuses != null && PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses)) {
                             ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
+                            Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_rectangle_status_cml", "drawable", "com.aliucord.plugins"), null);
 
                             avatar2.setPadding(8, 8, 8, 8);
                             avatar2.setBackground(radial_status);
-                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A);
+                            Objects.requireNonNull(radial_status).setTint(0xFFFAA61A - 1);
                             //avatar2.setBackgroundColor(Color.argb(1, 250, 166, 26));
                         }
                     }
                 }));
             }
+        }
+
+            //---------END--------
 
         } else {
             //if (settings.getBool("filled_colors", true) == true)
@@ -2093,8 +2838,8 @@ public class BetterStatus extends Plugin {
             //------------------------------
 
             CheckedSetting radial_status_cml = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (ChannelsMemeberList)", "Shows a status ring around the user avatar in the ChannelsMembersList.");
-            radial_status_cml.setChecked(true);
-            radial_status_cml.setChecked(settings.getBool("radial_status_cml", true));
+            radial_status_cml.setChecked(false);
+            radial_status_cml.setChecked(settings.getBool("radial_status_cml", false));
             radial_status_cml.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_cml", checked);
                 //PluginManager.stopPlugin("BetterStatus");
@@ -2104,8 +2849,8 @@ public class BetterStatus extends Plugin {
             addView(radial_status_cml);
 
             CheckedSetting radial_status_dm = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (DM's)", "Shows a status ring around the user avatar in the DM List.");
-            radial_status_dm.setChecked(true);
-            radial_status_dm.setChecked(settings.getBool("radial_status_dm", true));
+            radial_status_dm.setChecked(false);
+            radial_status_dm.setChecked(settings.getBool("radial_status_dm", false));
             radial_status_dm.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_dm", checked);
                 //PluginManager.stopPlugin("BetterStatus");
@@ -2115,8 +2860,8 @@ public class BetterStatus extends Plugin {
             addView(radial_status_dm);
 
             CheckedSetting radial_status_up = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (UserProfile)", "Shows a status ring around the user avatar in the UserProfile.");
-            radial_status_up.setChecked(true);
-            radial_status_up.setChecked(settings.getBool("radial_status_up", true));
+            radial_status_up.setChecked(false);
+            radial_status_up.setChecked(settings.getBool("radial_status_up", false));
             radial_status_up.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_up", checked);
                 //PluginManager.stopPlugin("BetterStatus");
