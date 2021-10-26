@@ -2093,8 +2093,8 @@ public class BetterStatus extends Plugin {
             //------------------------------
 
             CheckedSetting radial_status_cml = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (ChannelsMemeberList)", "Shows a status ring around the user avatar in the ChannelsMembersList.");
-            radial_status_cml.setChecked(false);
-            radial_status_cml.setChecked(settings.getBool("radial_status_cml", false));
+            radial_status_cml.setChecked(true);
+            radial_status_cml.setChecked(settings.getBool("radial_status_cml", true));
             radial_status_cml.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_cml", checked);
                 //PluginManager.stopPlugin("BetterStatus");
@@ -2104,8 +2104,8 @@ public class BetterStatus extends Plugin {
             addView(radial_status_cml);
 
             CheckedSetting radial_status_dm = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (DM's)", "Shows a status ring around the user avatar in the DM List.");
-            radial_status_dm.setChecked(false);
-            radial_status_dm.setChecked(settings.getBool("radial_status_dm", false));
+            radial_status_dm.setChecked(true);
+            radial_status_dm.setChecked(settings.getBool("radial_status_dm", true));
             radial_status_dm.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_dm", checked);
                 //PluginManager.stopPlugin("BetterStatus");
@@ -2115,8 +2115,8 @@ public class BetterStatus extends Plugin {
             addView(radial_status_dm);
 
             CheckedSetting radial_status_up = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (UserProfile)", "Shows a status ring around the user avatar in the UserProfile.");
-            radial_status_up.setChecked(false);
-            radial_status_up.setChecked(settings.getBool("radial_status_up", false));
+            radial_status_up.setChecked(true);
+            radial_status_up.setChecked(settings.getBool("radial_status_up", true));
             radial_status_up.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_up", checked);
                 //PluginManager.stopPlugin("BetterStatus");
