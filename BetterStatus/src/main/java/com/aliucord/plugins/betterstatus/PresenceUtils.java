@@ -138,6 +138,10 @@ public final class PresenceUtils {
         final ClientStatus idle = ClientStatus.IDLE;
         return c == idle && clientStatuses.b() == idle && clientStatuses.a() != idle;
     }
+    public boolean isCompletlyOffline(ClientStatuses statuses){
+        return  statuses.a() ==ClientStatus.OFFLINE &&  statuses.b()==ClientStatus.OFFLINE && statuses.c()==ClientStatus.OFFLINE;
+    }
+
 
     public final Activity getActivityByType(final List<Activity> list, final ActivityType activityType)
     {
