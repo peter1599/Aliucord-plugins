@@ -39,10 +39,7 @@ import com.facebook.drawee.span.SimpleDraweeSpanTextView;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 
 @SuppressWarnings("unused")
@@ -173,7 +170,7 @@ public class BetterStatus extends Plugin {
                         SimpleDraweeSpanTextView username_status = parent.findViewById(Utils.getResId("username_text", "id"));
                         if (username_status!=null){
                             for (VectorDrawable drawabe : drawableList) {
-
+                                drawabe.mutate();
                                 DraweeSpanStringBuilder icon = new DraweeSpanStringBuilder();
                                 icon.append(" ", new ImageSpan(drawabe, 1), 0);
                                 username_status.append(" ");
@@ -203,21 +200,45 @@ public class BetterStatus extends Plugin {
                         ClientStatuses clientStatuses1 = presence1.getClientStatuses();
                         if (clientStatuses1 != null) {
                             username_profile_header2.setCompoundDrawablePadding(2);
-                            if (PresenceUtils.INSTANCE.isWebMobile(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobile, null); }
-                            if (PresenceUtils.INSTANCE.isWebMobileDND(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobileDND, null); }
-                            if (PresenceUtils.INSTANCE.isWebMobileIDLE(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobileIDLE, null); }
+                            if (PresenceUtils.isWebMobile(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobile, null);
+                            }
+                            if (PresenceUtils.isWebMobileDND(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobileDND, null);
+                            }
+                            if (PresenceUtils.isWebMobileIDLE(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isWebMobileIDLE, null);
+                            }
                             //-------------------
-                            if (PresenceUtils.INSTANCE.isDesktopAndMobile(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobile, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopAndMobileDND(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobileDND, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopAndMobileIDLE(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobileIDLE, null); }
+                            if (PresenceUtils.isDesktopAndMobile(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobile, null);
+                            }
+                            if (PresenceUtils.isDesktopAndMobileDND(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobileDND, null);
+                            }
+                            if (PresenceUtils.isDesktopAndMobileIDLE(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopMobileIDLE, null);
+                            }
                             //-------
-                            if (PresenceUtils.INSTANCE.isDesktopAndWeb(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWeb, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopAndWebDND(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebDND, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopAndWebIDLE(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebIDLE, null); }
+                            if (PresenceUtils.isDesktopAndWeb(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWeb, null);
+                            }
+                            if (PresenceUtils.isDesktopAndWebDND(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebDND, null);
+                            }
+                            if (PresenceUtils.isDesktopAndWebIDLE(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebIDLE, null);
+                            }
                             //-------
-                            if (PresenceUtils.INSTANCE.isDesktopWebMobile(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobile, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopWebMobileDND(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobileDND, null); }
-                            if (PresenceUtils.INSTANCE.isDesktopWebMobileIDLE(clientStatuses1)) { username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobileIDLE, null); }
+                            if (PresenceUtils.isDesktopWebMobile(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobile, null);
+                            }
+                            if (PresenceUtils.isDesktopWebMobileDND(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobileDND, null);
+                            }
+                            if (PresenceUtils.isDesktopWebMobileIDLE(clientStatuses1)) {
+                                username_profile_header2.setCompoundDrawablesWithIntrinsicBounds(null, null, isDesktopWebMobileIDLE, null);
+                            }
                         }
                     } catch (Throwable e) {
                         logger.error("An error occurred in UserProfileHeaderView", e);
@@ -380,6 +401,7 @@ public class BetterStatus extends Plugin {
                         } catch (NoSuchFieldException e) {
                             e.printStackTrace();
                         }
+
                         bindingField.setAccessible(true);
                         WidgetChannelsListItemChannelPrivateBinding binding = null;
                         try {
@@ -388,13 +410,11 @@ public class BetterStatus extends Plugin {
                             e.printStackTrace();
                         }
 
-
                         RelativeLayout layout = (RelativeLayout) binding.getRoot();
                         ChannelListItemPrivate data = (ChannelListItemPrivate) callFrame.args[1];
                         Presence presence = data.getPresence();
 
                         ImageView avatar2 = layout.findViewById(Utils.getResId("channels_list_item_private_avatar", "id"));
-
 
                         if (presence == null) {
                             avatar2.setPadding(0, 0, 0, 0);
@@ -413,11 +433,7 @@ public class BetterStatus extends Plugin {
 
             //---------END--------
         } else {
-            //if (settings.getBool("filled_colors", true) == true)
             patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new Hook(callFrame -> {
-                Drawable imageResourceD = null;
-
-                int imageResource = 0;
                 Presence presence = (Presence) callFrame.args[0];
                 if (presence == null) return;
 
@@ -442,6 +458,7 @@ public class BetterStatus extends Plugin {
                         case DND: setImageDrawable((AppCompatImageView) callFrame.thisObject, getDrawable("ic_dnd"));break;
                         case IDLE: setImageDrawable((AppCompatImageView) callFrame.thisObject, getDrawable("ic_idle"));break;
                     }
+
                 }
             }));
         }
@@ -519,10 +536,9 @@ public class BetterStatus extends Plugin {
             this.settings = settings;
         }
         public void onViewCreated(View view, Bundle bundle) {
-
             super.onViewCreated(view, bundle);
             CheckedSetting filled_status = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Filled Colors", "Uses filled colors for status.");
-            filled_status.setChecked(false);
+
             filled_status.setChecked(settings.getBool("filled_colors", false));
             filled_status.setOnCheckedListener(checked -> {
                 settings.setBool("filled_colors", checked);
@@ -532,18 +548,14 @@ public class BetterStatus extends Plugin {
             //------------------------------
 
             CheckedSetting radial_status_cml = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (ChannelsMemeberList)", "Shows a status ring around the user avatar in the ChannelsMembersList.");
-            radial_status_cml.setChecked(false);
             radial_status_cml.setChecked(settings.getBool("radial_status_cml", false));
             radial_status_cml.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_cml", checked);
-                //PluginManager.stopPlugin("BetterStatus");
-                //PluginManager.startPlugin("BetterStatus");
                 Utils.showToast("Please restart Aliucord to apply");
             });
             addView(radial_status_cml);
 
             CheckedSetting radial_status_dm = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (DM's)", "Shows a status ring around the user avatar in the DM List.");
-            radial_status_dm.setChecked(false);
             radial_status_dm.setChecked(settings.getBool("radial_status_dm", false));
             radial_status_dm.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_dm", checked);
@@ -552,7 +564,6 @@ public class BetterStatus extends Plugin {
             addView(radial_status_dm);
 
             CheckedSetting radial_status_up = Utils.createCheckedSetting(requireContext(), CheckedSetting.ViewType.SWITCH, "Radial Status (UserProfile)", "Shows a status ring around the user avatar in the UserProfile.");
-            radial_status_up.setChecked(false);
             radial_status_up.setChecked(settings.getBool("radial_status_up", false));
             radial_status_up.setOnCheckedListener(checked -> {
                 settings.setBool("radial_status_up", checked);
