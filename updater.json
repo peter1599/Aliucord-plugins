@@ -1,10 +1,10 @@
 {
     "default": {
-        "minimumDiscordVersion": 96103,
+        "minimumDiscordVersion": 101203,
         "version": "1.0.0",
         "build": "https://raw.githubusercontent.com/peter1599/Aliucord-plugins/builds/%s.zip"
     },
     "BetterStatus": {
-        "version": "1.0.7"
+        "version": "1.0.8"
     }
 }
