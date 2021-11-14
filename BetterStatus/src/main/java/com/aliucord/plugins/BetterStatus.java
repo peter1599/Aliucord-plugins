@@ -476,55 +476,6 @@ public class BetterStatus extends Plugin {
                         ClientStatuses clientStatuses = null;
                         if(presence != null) {
                             clientStatuses = presence.getClientStatuses();
-
-                            /*var desktopStatus = clientStatuses.a();
-                            var mobileStatus = clientStatuses.b();
-                            var webStatus = clientStatuses.c();
-
-                            switch (webStatus) {
-                                case ONLINE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case DND:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case IDLE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                            }
-
-                            switch (desktopStatus) {
-                                case ONLINE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case DND:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case IDLE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                            }
-
-                            switch (mobileStatus) {
-                                case ONLINE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case DND:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                                case IDLE:
-                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                    chat_list_username.setCompoundDrawablePadding(8);
-                                    break;
-                            }*/
                         }
 
                         Drawable radial_status = ResourcesCompat.getDrawable(resources, resources.getIdentifier("ic_radial_status", "drawable", "com.aliucord.plugins"), null);
