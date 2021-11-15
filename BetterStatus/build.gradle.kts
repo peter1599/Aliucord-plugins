@@ -1,8 +1,13 @@
-version = "1.1.2"
+version = "1.1.3"
 description = "BetterStatus replaces default discord status icons"
 
 aliucord {
     changelog.set("""
+        # 1.1.3 Known Issues:
+        * Resizing bug
+        * ChannelMembersList showing wrong status icons and ring sometimes
+        # 1.1.3
+        * Fixed another small bug
         # 1.1.2 Known Issues:
         * Resizing bug
         * ChannelMembersList showing wrong status icons and ring sometimes
