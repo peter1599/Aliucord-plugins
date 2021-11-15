@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.res.ResourcesCompat;
 
 import com.aliucord.Logger;
@@ -25,9 +26,14 @@ import com.aliucord.plugins.betterstatus.PresenceUtils;
 import com.aliucord.widgets.BottomSheet;
 import com.discord.api.presence.ClientStatus;
 import com.discord.api.presence.ClientStatuses;
+import com.discord.api.user.User;
+import com.discord.databinding.WidgetChannelMembersListItemUserBinding;
 import com.discord.databinding.WidgetChannelsListItemChannelPrivateBinding;
+import com.discord.models.domain.ModelUserSettings;
 import com.discord.models.message.Message;
 import com.discord.models.presence.Presence;
+import com.discord.models.user.MeUser;
+import com.discord.restapi.RestAPIParams;
 import com.discord.stores.Dispatcher;
 import com.discord.stores.Store;
 import com.discord.stores.StoreGatewayConnection;
@@ -35,12 +41,16 @@ import com.discord.stores.StoreStream;
 import com.discord.stores.StoreUser;
 import com.discord.stores.StoreUserPresence;
 import com.discord.utilities.collections.SnowflakePartitionMap;
+import com.discord.utilities.user.UserUtils;
 import com.discord.views.CheckedSetting;
 import com.discord.views.StatusView;
 import com.discord.views.user.UserAvatarPresenceView;
 import com.discord.widgets.channels.list.WidgetChannelsListAdapter;
 import com.discord.widgets.channels.list.items.ChannelListItem;
 import com.discord.widgets.channels.list.items.ChannelListItemPrivate;
+import com.discord.widgets.channels.memberlist.WidgetChannelMembersList;
+import com.discord.widgets.channels.memberlist.adapter.ChannelMembersListAdapter;
+import com.discord.widgets.channels.memberlist.adapter.ChannelMembersListViewHolderMember;
 import com.discord.widgets.chat.list.adapter.WidgetChatListAdapterItemMessage;
 import com.discord.widgets.chat.list.adapter.WidgetChatListItem;
 import com.discord.widgets.chat.list.entries.ChatListEntry;
@@ -49,11 +59,14 @@ import com.discord.widgets.user.profile.UserProfileHeaderView;
 import com.discord.widgets.user.profile.UserProfileHeaderViewModel;
 import com.facebook.drawee.span.DraweeSpanStringBuilder;
 import com.facebook.drawee.span.SimpleDraweeSpanTextView;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+
+import kotlin.jvm.functions.Function0;
 
 @SuppressWarnings("unused")
 @AliucordPlugin
@@ -273,7 +286,9 @@ public class BetterStatus extends Plugin {
                         View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
                         ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
 
-                        if (data.b == null) {
+
+                        if(data.a.getAvatar() == null && data.a.getId() == StoreStream.getUsers().getMe().getId()) return;
+                        if (data.b == null || data.a.getId() == StoreStream.getUsers().getMe().getId() && data.a.getAvatar() == null && !data.a.getAvatar().equals(StoreStream.getUsers().getMe().getAvatar())) {
                             avatar2.setPadding(0, 0, 0, 0);
                             avatar2.setBackground(null);
                         }
@@ -296,13 +311,20 @@ public class BetterStatus extends Plugin {
 
                     patcher.patch(UserAvatarPresenceView.class.getDeclaredMethod("a", UserAvatarPresenceView.a.class), new Hook(callFrame -> {
                         UserAvatarPresenceView.a data = (UserAvatarPresenceView.a) callFrame.args[0];
-                        if (data.b == null) return;
+
                         ClientStatuses clientStatuses = data.b.getClientStatuses();
 
                         if (clientStatuses != null) {
 
                             View avatar = (View) ((UserAvatarPresenceView) callFrame.thisObject).getParent();
                             ImageView avatar2 = avatar.findViewById(Utils.getResId("avatar", "id"));
+
+                            if(data.a.getAvatar() == null && data.a.getId() == StoreStream.getUsers().getMe().getId()) return;
+                            if (data.b == null || data.a.getId() == StoreStream.getUsers().getMe().getId() && data.a.getAvatar() == null && !data.a.getAvatar().equals(StoreStream.getUsers().getMe().getAvatar())) {
+                                avatar2.setPadding(0, 0, 0, 0);
+                                avatar2.setBackground(null);
+                            }
+
                             ImageView avatar2_cut = avatar.findViewById(Utils.getResId("avatar_cutout", "id"));
 
                             setSquareStatus(clientStatuses, avatar2, "profile");
@@ -319,24 +341,47 @@ public class BetterStatus extends Plugin {
             if (!(PluginManager.plugins.containsKey("SquareAvatars")) || !PluginManager.isPluginEnabled("SquareAvatars")) {
                 if (settings.getBool("radial_status_cml", true)) {
                     //-----ChannelMemberList--------
+                    patcher.patch(ChannelMembersListViewHolderMember.class.getDeclaredMethod("bind", ChannelMembersListAdapter.Item.Member.class, Function0.class), new Hook(callFrame -> {
 
-                    patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new Hook(callFrame -> {
-                        Presence presence = (Presence) callFrame.args[0];
+                        Field bindingField1 = null;
+                        try {
+                            bindingField1 = ChannelMembersListViewHolderMember.class.getDeclaredField("binding");
+                            bindingField1.setAccessible(true);
+                        } catch (NoSuchFieldException e) {
+                            e.printStackTrace();
+                        }
 
-                        View avatar = (View) ((StatusView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                        ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+                        WidgetChannelMembersListItemUserBinding binding = null;
+                        try {
+                            binding = (WidgetChannelMembersListItemUserBinding) bindingField1.get(callFrame.thisObject);
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        ConstraintLayout layout = (ConstraintLayout) binding.getRoot();
+
+                        ChannelMembersListAdapter.Item.Member member = (ChannelMembersListAdapter.Item.Member) callFrame.args[0];
+
+                        Presence presence = null;
+                        if(member.getUserId() != StoreStream.getUsers().getMe().getId()) {
+                            presence = member.getPresence();
+                        }
+
+                        SimpleDraweeView avatar = layout.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
 
                         if (presence == null) {
-                            if (avatar2 != null) {
-                                avatar2.setPadding(0, 0, 0, 0);
-                                avatar2.setBackground(null);
+                            if (avatar != null) {
+                                avatar.setPadding(0, 0, 0, 0);
+                                avatar.setBackground(null);
                             }
-                            return;
                         }
-                        ClientStatuses clientStatuses = presence.getClientStatuses();
 
-                        if (clientStatuses != null && avatar2!=null) {
-                            setRadialStatus(clientStatuses, avatar2);
+                        ClientStatuses clientStatuses = null;
+                        if(presence != null) {
+                            clientStatuses = presence.getClientStatuses();
+                        }
+
+                        if (clientStatuses != null && avatar!=null) {
+                            setRadialStatus(clientStatuses, avatar);
                         }
                     }));
 
@@ -346,22 +391,47 @@ public class BetterStatus extends Plugin {
             if (PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) {
                 if (settings.getBool("radial_status_cml", true)) {
                     //-----ChannelMemberList--------
-                    patcher.patch(StatusView.class.getDeclaredMethod("setPresence", Presence.class), new Hook(callFrame -> {
-                        Presence presence = (Presence) callFrame.args[0];
+                    patcher.patch(ChannelMembersListViewHolderMember.class.getDeclaredMethod("bind", ChannelMembersListAdapter.Item.Member.class, Function0.class), new Hook(callFrame -> {
 
-                        View avatar = (View) ((AppCompatImageView) callFrame.thisObject).getParent(); //UsernameView class or method?
-                        ImageView avatar2 = avatar.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
-                        if (presence == null ) {
-                            if ( avatar2!=null){
-                                avatar2.setPadding(0, 0, 0, 0);
-                                avatar2.setBackground(null);
-                            }
-                            return;
+                        Field bindingField1 = null;
+                        try {
+                            bindingField1 = ChannelMembersListViewHolderMember.class.getDeclaredField("binding");
+                            bindingField1.setAccessible(true);
+                        } catch (NoSuchFieldException e) {
+                            e.printStackTrace();
                         }
-                        ClientStatuses clientStatuses = presence.getClientStatuses();
 
-                        if (clientStatuses != null && avatar2!=null) {
-                            setSquareStatus(clientStatuses, avatar2, "non-profile");
+                        WidgetChannelMembersListItemUserBinding binding = null;
+                        try {
+                            binding = (WidgetChannelMembersListItemUserBinding) bindingField1.get(callFrame.thisObject);
+                        } catch (IllegalAccessException e) {
+                            e.printStackTrace();
+                        }
+                        ConstraintLayout layout = (ConstraintLayout) binding.getRoot();
+
+                        ChannelMembersListAdapter.Item.Member member = (ChannelMembersListAdapter.Item.Member) callFrame.args[0];
+
+                        Presence presence = null;
+                        if(member.getUserId() != StoreStream.getUsers().getMe().getId()) {
+                            presence = member.getPresence();
+                        }
+
+                        SimpleDraweeView avatar = layout.findViewById(Utils.getResId("channel_members_list_item_avatar", "id"));
+
+                        if (presence == null) {
+                            if (avatar != null) {
+                                avatar.setPadding(0, 0, 0, 0);
+                                avatar.setBackground(null);
+                            }
+                        }
+
+                        ClientStatuses clientStatuses = null;
+                        if(presence != null) {
+                            clientStatuses = presence.getClientStatuses();
+                        }
+
+                        if (clientStatuses != null && avatar!=null) {
+                            setSquareStatus(clientStatuses, avatar, "non-profile");
                         }
                     }));
                 }
@@ -377,10 +447,10 @@ public class BetterStatus extends Plugin {
                         Field bindingField = null;
                         try {
                             bindingField = WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredField("binding");
+                            bindingField.setAccessible(true);
                         } catch (NoSuchFieldException e) {
                             e.printStackTrace();
                         }
-                        bindingField.setAccessible(true);
                         WidgetChannelsListItemChannelPrivateBinding binding = null;
 
                         try {
@@ -418,11 +488,11 @@ public class BetterStatus extends Plugin {
                         Field bindingField = null;
                         try {
                             bindingField = WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredField("binding");
+                            bindingField.setAccessible(true);
                         } catch (NoSuchFieldException e) {
                             e.printStackTrace();
                         }
 
-                        bindingField.setAccessible(true);
                         WidgetChannelsListItemChannelPrivateBinding binding = null;
                         try {
                             binding = (WidgetChannelsListItemChannelPrivateBinding) bindingField.get(callFrame.thisObject);
@@ -471,7 +541,11 @@ public class BetterStatus extends Plugin {
 
                         SnowflakePartitionMap.CopiablePartitionMap<Presence> presences = StoreStream.getPresences().getPresences();
 
-                        Presence presence = (Presence) presences.get(userId);
+                        Presence presence = null;
+                        if(userId != StoreStream.getUsers().getMe().getId()) {
+                            presence = (Presence) presences.get(userId);
+                        }
+                        Presence local_presence = StoreStream.getPresences().getLocalPresence$app_productionCanaryRelease();
 
                         ClientStatuses clientStatuses = null;
                         if(presence != null) {
@@ -484,8 +558,6 @@ public class BetterStatus extends Plugin {
                             if(chat_list_avatar != null) {
                                 chat_list_avatar.setPadding(0, 0, 0, 0);
                                 chat_list_avatar.setBackground(null);
-                                //chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);
-                                //chat_list_username.setCompoundDrawablePadding(0);
                             }
                         }
 
@@ -506,7 +578,10 @@ public class BetterStatus extends Plugin {
 
                     SnowflakePartitionMap.CopiablePartitionMap<Presence> presences = StoreStream.getPresences().getPresences();
 
-                    Presence presence = (Presence) presences.get(userId);
+                    Presence presence = null;
+                    if(userId != StoreStream.getUsers().getMe().getId()) {
+                        presence = (Presence) presences.get(userId);
+                    }
 
                     ClientStatuses clientStatuses = null;
                     if(presence != null) {
@@ -531,6 +606,8 @@ public class BetterStatus extends Plugin {
                 }
             }
 
+            //------------Author status in chat--------------
+
             if (settings.getBool("status_chat", true)) {
 
                 patcher.patch(WidgetChatListAdapterItemMessage.class.getDeclaredMethod("onConfigure", int.class, ChatListEntry.class), new Hook(callFrame -> {
@@ -543,9 +620,13 @@ public class BetterStatus extends Plugin {
 
                     SnowflakePartitionMap.CopiablePartitionMap<Presence> presences = StoreStream.getPresences().getPresences();
 
-                    Presence presence = (Presence) presences.get(userId);
+                    Presence presence = null;
+                    if(userId != StoreStream.getUsers().getMe().getId()) {
+                        presence = (Presence) presences.get(userId);
+                    }
 
                     ClientStatuses clientStatuses = null;
+
                     if(presence != null) {
                         clientStatuses = presence.getClientStatuses();
 
@@ -553,49 +634,52 @@ public class BetterStatus extends Plugin {
                         var mobileStatus = clientStatuses.b();
                         var webStatus = clientStatuses.c();
 
-                        switch (webStatus) {
-                            case ONLINE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case DND:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case IDLE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                        }
+                        if(chat_list_username != null) {
 
-                        switch (desktopStatus) {
-                            case ONLINE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case DND:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case IDLE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                        }
+                            switch (webStatus) {
+                                case ONLINE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case DND:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case IDLE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                            }
 
-                        switch (mobileStatus) {
-                            case ONLINE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case DND:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
-                            case IDLE:
-                                chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
-                                chat_list_username.setCompoundDrawablePadding(8);
-                                break;
+                            switch (desktopStatus) {
+                                case ONLINE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case DND:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case IDLE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                            }
+
+                            switch (mobileStatus) {
+                                case ONLINE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_online"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case DND:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_dnd"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                                case IDLE:
+                                    chat_list_username.setCompoundDrawablesWithIntrinsicBounds(null, null, getDrawable("ic_idle"), null);
+                                    chat_list_username.setCompoundDrawablePadding(8);
+                                    break;
+                            }
                         }
                     }
 
