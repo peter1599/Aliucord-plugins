@@ -758,10 +758,10 @@ public class BetterStatus extends Plugin {
 
         switch (webStatus) {
             case ONLINE:
-                Objects.requireNonNull(background).setTint(0xFF3BA55C);
+                Objects.requireNonNull(background).setTint(0xFF3BA55C - 1);
                 break;
             case DND:
-                Objects.requireNonNull(background).setTint(0xFFED4245);
+                Objects.requireNonNull(background).setTint(0xFFED4245 - 1);
                 break;
             case IDLE:
                 Objects.requireNonNull(background).setTint(0xFFFAA61A - 1);
@@ -770,10 +770,10 @@ public class BetterStatus extends Plugin {
 
         switch (desktopStatus) {
             case ONLINE:
-                Objects.requireNonNull(background).setTint(0xFF3BA55C);
+                Objects.requireNonNull(background).setTint(0xFF3BA55C - 1);
                 break;
             case DND:
-                Objects.requireNonNull(background).setTint(0xFFED4245);
+                Objects.requireNonNull(background).setTint(0xFFED4245 - 1);
                 break;
             case IDLE:
                 Objects.requireNonNull(background).setTint(0xFFFAA61A - 1);
@@ -782,10 +782,10 @@ public class BetterStatus extends Plugin {
 
         switch (mobileStatus) {
             case ONLINE:
-                Objects.requireNonNull(background).setTint(0xFF3BA55C);
+                Objects.requireNonNull(background).setTint(0xFF3BA55C - 1);
                 break;
             case DND:
-                Objects.requireNonNull(background).setTint(0xFFED4245);
+                Objects.requireNonNull(background).setTint(0xFFED4245 - 1);
                 break;
             case IDLE:
                 Objects.requireNonNull(background).setTint(0xFFFAA61A - 1);
