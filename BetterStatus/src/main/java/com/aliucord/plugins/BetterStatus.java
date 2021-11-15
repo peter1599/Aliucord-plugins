@@ -442,7 +442,7 @@ public class BetterStatus extends Plugin {
 
             //-------------DM List--------
 
-            if (!(PluginManager.plugins.containsKey("SquareAvatars") || !PluginManager.isPluginEnabled("SquareAvatars")) || !(PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("AlwaysAnimate") && !PluginManager.isPluginEnabled("AlwaysAnimate")) || !(PluginManager.plugins.containsKey("AlwaysAnimate") && PluginManager.isPluginEnabled("AlwaysAnimate"))) {
+            if ((PluginManager.plugins.containsKey("SquareAvatars") || !PluginManager.isPluginEnabled("SquareAvatars")) || !(PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("AlwaysAnimate") && !PluginManager.isPluginEnabled("AlwaysAnimate")) || !(PluginManager.plugins.containsKey("AlwaysAnimate") && PluginManager.isPluginEnabled("AlwaysAnimate"))) {
                 if (settings.getBool("radial_status_dm", true)) {
 
                     patcher.patch(WidgetChannelsListAdapter.ItemChannelPrivate.class.getDeclaredMethod("onConfigure", int.class, ChannelListItem.class), new Hook(callFrame -> {
@@ -530,7 +530,7 @@ public class BetterStatus extends Plugin {
 
             //----------WidgetChatListAdapterItemMessage---------
 
-            if (!(PluginManager.plugins.containsKey("SquareAvatars") || !PluginManager.isPluginEnabled("SquareAvatars")) || !(PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("AlwaysAnimate") && !PluginManager.isPluginEnabled("AlwaysAnimate")) || !(PluginManager.plugins.containsKey("AlwaysAnimate") && PluginManager.isPluginEnabled("AlwaysAnimate"))) {
+            if ((PluginManager.plugins.containsKey("SquareAvatars") || !PluginManager.isPluginEnabled("SquareAvatars")) || !(PluginManager.plugins.containsKey("SquareAvatars") && PluginManager.isPluginEnabled("SquareAvatars")) || (PluginManager.plugins.containsKey("AlwaysAnimate") && !PluginManager.isPluginEnabled("AlwaysAnimate")) || !(PluginManager.plugins.containsKey("AlwaysAnimate") && PluginManager.isPluginEnabled("AlwaysAnimate"))) {
                 if (settings.getBool("radial_status_chat", true)) {
 
                     patcher.patch(WidgetChatListAdapterItemMessage.class.getDeclaredMethod("onConfigure", int.class, ChatListEntry.class), new Hook(callFrame -> {
