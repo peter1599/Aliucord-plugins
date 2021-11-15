@@ -312,7 +312,10 @@ public class BetterStatus extends Plugin {
                     patcher.patch(UserAvatarPresenceView.class.getDeclaredMethod("a", UserAvatarPresenceView.a.class), new Hook(callFrame -> {
                         UserAvatarPresenceView.a data = (UserAvatarPresenceView.a) callFrame.args[0];
 
-                        ClientStatuses clientStatuses = data.b.getClientStatuses();
+                        ClientStatuses clientStatuses = null;
+                        if(data.b != null) {
+                           clientStatuses  = data.b.getClientStatuses();
+                        }
 
                         if (clientStatuses != null) {
 
