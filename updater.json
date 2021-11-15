@@ -5,6 +5,6 @@
         "build": "https://raw.githubusercontent.com/peter1599/Aliucord-plugins/builds/%s.zip"
     },
     "BetterStatus": {
-        "version": "1.1.1"
+        "version": "1.1.2"
     }
 }
