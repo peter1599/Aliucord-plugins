@@ -1,8 +1,14 @@
-version = "1.1.3"
+version = "1.1.4"
 description = "BetterStatus replaces default discord status icons"
 
 aliucord {
     changelog.set("""
+        # 1.1.4 Known Issues:
+        * Resizing bug
+        * NOTE: I will push another update today to add AlwaysAnimate compatibilty again cause i previously messed up the checks and i have to redo. Please be patient.
+        # 1.1.4
+        * Added a new option Voice Status: Shows the status ring around the speaking user based on their status instead of only green. This means you can see the speaking user(s) status in voice channels now.
+        * Fixed SquareAvatars compatibilty
         # 1.1.3 Known Issues:
         * Resizing bug
         * ChannelMembersList showing wrong status icons and ring sometimes
