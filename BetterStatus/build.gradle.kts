@@ -1,8 +1,13 @@
-version = "1.1.4"
+version = "1.1.5"
 description = "BetterStatus replaces default discord status icons"
 
 aliucord {
     changelog.set("""
+        # 1.1.5 Known Issues:
+        * Resizing bug
+        * AlwaysAnimate compatibilty
+        # 1.1.5
+        * Fixed error spamming
         # 1.1.4 Known Issues:
         * Resizing bug
         * NOTE: I will push another update today to add AlwaysAnimate compatibilty again cause i previously messed up the checks and i have to redo. Please be patient.
