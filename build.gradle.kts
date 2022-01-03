@@ -9,7 +9,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.1")
-        classpath("com.aliucord:Aliucord:gradle:main-SNAPSHOT")
+        classpath("com.aliucord:Aliucord:main-SNAPSHOT")
     }
 }
 
