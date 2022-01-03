@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.1")
-        classpath("com.aliucord:Aliucord:main-SNAPSHOT")
+        classpath("com.aliucord:gradle:main-SNAPSHOT")
     }
 }
 
@@ -19,7 +19,6 @@ allprojects {
         google()
         mavenCentral()
         maven("https://maven.aliucord.com/snapshots")
-        maven("https://jitpack.io")
     }
 }
 
