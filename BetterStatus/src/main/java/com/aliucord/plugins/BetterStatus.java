@@ -673,7 +673,7 @@ public class BetterStatus extends Plugin {
                         if(userId != StoreStream.getUsers().getMe().getId()) {
                             presence = (Presence) presences.get(userId);
                         }
-                        Presence local_presence = StoreStream.getPresences().getLocalPresence$app_productionCanaryRelease();
+                        //Presence local_presence = StoreStream.getPresences().getLocalPresence$app_productionCanaryRelease();
 
                         ClientStatuses clientStatuses = null;
                         if(presence != null) {
